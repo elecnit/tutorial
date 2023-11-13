@@ -1,0 +1,12 @@
+pipeline{
+agent{
+label 'SLAVE_FIH1'
+}
+stages{
+stage('one'){
+steps{
+echo "running done"
+}
+}
+}
+}
